@@ -1,0 +1,40 @@
+table {
+    border: 1px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+td,
+th {
+    border-bottom: 1px solid black;
+    border-left: 1px dotted black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    padding-block: .4rem;
+    padding-inline: .5rem;
+}
+
+td{
+    padding-block: .4rem;
+    padding-inline: .5rem;
+}
+tr:hover {
+    cursor: pointer;
+}
+
+tr:nth-child(1){
+    background-color: #bbccd8;
+}
+
+tr:nth-child(odd):hover {
+    background: #95b2c7;
+}
+tr:nth-child(even):hover {
+    background: #abc795;
+}
+.text-center {
+    text-align: center;
+}
